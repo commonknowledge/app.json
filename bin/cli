@@ -35,7 +35,6 @@ program
     var app = App.new()
     app.name = titlecase(path.basename(process.cwd()))
     app.description = ""
-    app.keywords = ["small", "sharp", "tool"]
  
     app.addons = []
     app.env = {}
